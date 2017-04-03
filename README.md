@@ -6,7 +6,7 @@
 ### install
 
 ```
-go get -v github.com/ma6174/qmongo
+go get -v -insecure github.com/ma6174/qmongo
 ```
 
 ### how to use

@@ -4,6 +4,6 @@ go:
    - 1.8
 services: mongodb
 script:
-  - go get -u -v github.com/ma6174/qmongo
+  - go get -u -v -insecure github.com/ma6174/qmongo
   - make
   - make test
