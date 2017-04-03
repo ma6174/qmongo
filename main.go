@@ -1,11 +1,11 @@
 package main
 
 import (
-	"github.com/ma6174/qmongo/qlang/bson"
 	"github.com/ma6174/qmongo/qlang/flag"
 	"github.com/ma6174/qmongo/qlang/fmt"
 	"github.com/ma6174/qmongo/qlang/glog"
-	"github.com/ma6174/qmongo/qlang/mgo"
+	"github.com/ma6174/qmongo/qlang/gopkg.in/mgo.v2"
+	"github.com/ma6174/qmongo/qlang/gopkg.in/mgo.v2/bson"
 	"github.com/ma6174/qmongo/qlang/net"
 	"github.com/ma6174/qmongo/qlang/net/url"
 	"github.com/ma6174/qmongo/qlang/regexp"
