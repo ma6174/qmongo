@@ -1,5 +1,8 @@
 # qmongo - qlang script support MongoDB and BSON
 
+[![Build Status](https://travis-ci.org/ma6174/qmongo.svg?branch=master)](https://travis-ci.org/ma6174/qmongo)
+
+
 ### install
 
 ```
