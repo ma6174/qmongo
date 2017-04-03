@@ -8,6 +8,6 @@ go:
 services: mongodb
 script:
   - go get -u -insecure qlang.io/qlang
-  - go get -u -v github.com/ma6174/qmongo
+  - go get -v github.com/ma6174/qmongo
   - make
   - make test
