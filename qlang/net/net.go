@@ -19,7 +19,6 @@ var Exports = map[string]interface{}{
 	"IPv4len":          net.IPv4len,
 	"IPv6len":          net.IPv6len,
 
-	"DefaultResolver":            net.DefaultResolver,
 	"ErrWriteToConnected":        net.ErrWriteToConnected,
 	"IPv4allrouter":              net.IPv4allrouter,
 	"IPv4allsys":                 net.IPv4allsys,
@@ -67,7 +66,6 @@ var Exports = map[string]interface{}{
 	"interfaceByName":    net.InterfaceByName,
 	"MX":                 qlang.StructOf((*net.MX)(nil)),
 	"NS":                 qlang.StructOf((*net.NS)(nil)),
-	"Resolver":           qlang.StructOf((*net.Resolver)(nil)),
 	"SRV":                qlang.StructOf((*net.SRV)(nil)),
 	"TCPAddr":            qlang.StructOf((*net.TCPAddr)(nil)),
 	"resolveTCPAddr":     net.ResolveTCPAddr,

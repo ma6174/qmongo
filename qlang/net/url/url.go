@@ -11,8 +11,6 @@ import (
 var Exports = map[string]interface{}{
 	"_name": "net/url",
 
-	"pathEscape":    url.PathEscape,
-	"pathUnescape":  url.PathUnescape,
 	"queryEscape":   url.QueryEscape,
 	"queryUnescape": url.QueryUnescape,
 
