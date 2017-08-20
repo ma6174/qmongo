@@ -1,0 +1,1844 @@
+commit c831d3165172137d4fbfd1de17b857a786c47283
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 28 23:23:09 2017 +0800
+
+    x
+
+commit c7631d90930351ec209041371cff8b387012e3d4
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 28 23:06:24 2017 +0800
+
+    #145 #147
+
+commit 7392151fd0720198f989edc50dff59392a3dce32
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 28 02:46:16 2017 +0800
+
+    #145 包导出函数命名风格兼容 Go 语言
+
+commit 230f34fe7450fe4d643cc74336b3aae86603a2a9
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 28 01:52:24 2017 +0800
+
+    #142 support undefined[something]
+
+commit 3a072a8f981014afd1ceea70c84299ed71b5450b
+Merge: f8899ab 641c5a7
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Nov 22 15:47:13 2016 +0800
+
+    Merge pull request #138 from visualfc/develop
+    
+    qexport fix +build ver check and clean vendor code
+
+commit 641c5a7e46d679a84c702131043f6a12099b4248
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue Nov 22 15:20:49 2016 +0800
+
+    qexport clean vendor
+
+commit 67215fd4a39f47683a040b91681760cfa2ea5e4e
+Author: visualfc <visualfc@gmail.com>
+Date:   Fri Nov 18 11:21:22 2016 +0800
+
+    qexport fix +build ver check
+
+commit f8899ab2d6ed06076ceba52ff4db2a1086c0a2fc
+Merge: cfe02e0 7b51102
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri Nov 18 10:16:06 2016 +0800
+
+    Merge pull request #137 from visualfc/develop
+    
+    qexport 实现合并包功能
+
+commit 7b511024aa5ec3cb207810e1c53b8525fddf951c
+Author: visualfc <visualfc@gmail.com>
+Date:   Fri Nov 18 08:23:51 2016 +0800
+
+    qexport fix importpath
+
+commit 2d25e2e6f959b6ffdf3d03debe1d6418bfcaac84
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu Nov 17 23:03:53 2016 +0800
+
+    qexport has unexport field struct unexported
+
+commit edc89acd1938d15b36557d859651f29574d08384
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu Nov 17 22:02:24 2016 +0800
+
+    qexport add vendor gotools
+
+commit d3f1b24d13bbc35022d92b5e8b643611f34c6583
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu Nov 17 21:59:49 2016 +0800
+
+    qexport update doc
+
+commit e11c4edacfe319e967bcb7a78e42529da01ef90c
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu Nov 17 21:40:03 2016 +0800
+
+    qexport update doc
+
+commit 22044cd6c91f7331882265467e1342eb47245593
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu Nov 17 21:24:28 2016 +0800
+
+    qexport update
+
+commit a1a2d208ec71cee32a8e63bf98f9a9dd1012d2dc
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu Nov 17 14:02:42 2016 +0800
+
+    qxport implement --updatepath
+
+commit a02f755777e86a5e9db72355c191ea01ff5c5e44
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu Nov 17 07:15:18 2016 +0800
+
+    qexport add -updatepath flag
+
+commit cfe02e04be6aeb9aaec472840f9a4fa6afc9b937
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Nov 15 11:26:39 2016 +0800
+
+    #135: 回调函数返回值不支持 error 类型
+
+commit 6a37a2db09f08e0e3993e70cb81f0e5ea2261212
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Nov 7 20:50:48 2016 +0800
+
+    #131 fix 常表达式优化带来的 bug
+
+commit 9d4de309730d44fb3c7a22827fda90e6e545cd02
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Nov 7 01:32:13 2016 +0800
+
+    app/ => cmd/
+
+commit e95bf77a8a383e8d0cb30feeb633172db7ea7b0b
+Merge: af22c04 3529a7f
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Nov 5 09:36:51 2016 +0800
+
+    Merge branch 'develop' of github.com:qiniu/qlang into develop
+
+commit af22c04b263dec7048d52b1bc0b8af60058e7b76
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Nov 5 09:35:56 2016 +0800
+
+    #127 http.handle
+
+commit 3529a7fc2d9ea250fa8d646f148b255c4542d5ec
+Merge: 8f4b1f8 ed8e07e
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Oct 25 17:23:38 2016 +0800
+
+    Merge pull request #126 from visualfc/develop
+    
+    qexport, update import line spec to qlang.v3
+
+commit ed8e07e451dc21d9185c6c360e03d5a432562c57
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue Oct 25 15:48:24 2016 +0800
+
+    qexport, format code
+
+commit 5b3213024a96bb8f4c809799eade58f69eb64407
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue Oct 25 15:46:11 2016 +0800
+
+    qexport, update import spec to qlang.v3
+
+commit 4a250440e7ebe57ed0d60fe67a0992dc4d31b8e1
+Merge: 1b386ff 8f4b1f8
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue Oct 25 15:28:26 2016 +0800
+
+    Merge remote-tracking branch 'upstream/develop' into develop
+
+commit 8f4b1f89548f646895a4dd7ce4c8548ec5ffa2e8
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Oct 25 01:48:27 2016 +0800
+
+    Update README.md
+
+commit 04f77ece64f95094ab758792026a74b47bf58fbb
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Oct 25 01:25:19 2016 +0800
+
+    Update README.md
+
+commit 13e73536160af1dfedb5571aa1815cee82884bbf
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Oct 25 01:31:28 2016 +0800
+
+    qlang.v3
+
+commit ecfba4001ed34c1ace138e744bb72dd910e115f3
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Oct 22 09:40:09 2016 +0800
+
+    strconv
+
+commit 6009505d76cb54cdcb55f00492998a01601353f0
+Merge: d0b9dac 0c38dd9
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed Sep 28 11:07:54 2016 +0800
+
+    Merge pull request #122 from landylee1989/develop
+    
+    add gocardreport badge
+
+commit 0c38dd9284c4ccbb93b101ae0f9e40fe3dc07efa
+Author: landy lee <liqian@qiniu.com>
+Date:   Tue Sep 27 20:40:34 2016 +0800
+
+    add gocardreport badge
+
+commit 1b386ff884b9f5fc5ac511aa6cae1827fead057d
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue Aug 30 20:17:22 2016 +0800
+
+    qexport update context
+
+commit 94d8767587f36e33d09069617189d9149cc6c24e
+Merge: fce349f d0b9dac
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon Aug 29 08:30:02 2016 +0800
+
+    Merge remote-tracking branch 'upstream/develop' into develop
+
+commit fce349f6ae01a32b5d1f3f65cfddd7b963c89717
+Author: visualfc <visualfc@gmail.com>
+Date:   Wed Aug 24 21:01:09 2016 +0800
+
+    x
+
+commit 8d823e42553ddbd3a35834c6519780cd6b358e67
+Author: visualfc <visualfc@gmail.com>
+Date:   Wed Aug 24 20:59:21 2016 +0800
+
+    qexport fix
+
+commit 2979f65906325410eeb7e1402b2036151514abca
+Author: visualfc <visualfc@gmail.com>
+Date:   Wed Aug 24 20:46:40 2016 +0800
+
+    qexport check go api cont int64/uint64
+
+commit d0b9dacdbf7f66f9d797dfe1fd95e84bd3d13e9f
+Merge: 3190a1b 1f09b83
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Aug 21 07:24:14 2016 +0800
+
+    Merge pull request #120 from bingohuang/add-atom-support
+    
+    Add the support in Atom with syntax highlighting.
+
+commit 1f09b83c46d8085a5af99334f10dbdaf45e630f8
+Author: bingohuang <me@bingohuang.com>
+Date:   Sat Aug 13 11:24:09 2016 +0800
+
+    Add the support in Atom with syntax highlighting.
+
+commit 3190a1bd77c9f3b86f1be7700b03ee271a29ad52
+Merge: f2ef5a8 37d3e9f
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Jun 28 08:40:58 2016 +0800
+
+    Merge pull request #119 from visualfc/develop
+    
+    package meta, doc sort map keys.
+
+commit 37d3e9fdeef28012104f4d9c30e11cc6ccd84e4a
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue Jun 28 08:05:21 2016 +0800
+
+    meta package,doc sort map keys
+
+commit 7530f1456a42fb058c53cf2bfa186943d93f7325
+Merge: 8e96b56 f05497f
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue Jun 28 07:20:38 2016 +0800
+
+    Merge remote-tracking branch 'upstream/master' into develop
+
+commit f2ef5a8da075cb1f4f12d13b2d3dde40273d8f6b
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Jun 25 10:41:15 2016 +0800
+
+    x
+
+commit 3943c05e86abb2ec19004d983b55a9d458d647ee
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Jun 16 16:37:45 2016 +0800
+
+    eql: error processing
+
+commit 724c5bc7f6621327bbb267ab1d9dfa871b6a7a51
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed Jun 15 12:52:55 2016 +0800
+
+    Update README.md
+
+commit 969e93377946e860424c7b9e57cb3acf543d55c3
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed Jun 15 01:03:59 2016 +0800
+
+    Update README.md
+
+commit f05497f5823ad139657b2c303945ee69daf99882
+Merge: ad42217 d6e4709
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Jun 14 14:52:33 2016 +0800
+
+    Merge pull request #118 from qiniu/develop
+    
+    Release v2.9.30
+
+commit d6e47094589750786f4b6734ac23c9902c2c5288
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Jun 14 11:49:47 2016 +0800
+
+    1. ql, err = qlang.New(opts) ==> ql = qlang.New(); 2. eql => eqlang
+
+commit 068e4359e90f5aa59176669edc5d23813b3aa424
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Jun 13 16:17:18 2016 +0800
+
+    Update eql_test.go
+
+commit 35b01b6a5708c2943b3f270fdb2fa4e6a3a27a6a
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Jun 13 10:49:35 2016 +0800
+
+    x
+
+commit d9e29580a3df23468f6889eb78c97fefbdc2896e
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Jun 13 10:20:02 2016 +0800
+
+    Update README.md
+
+commit 1400c88efad70d4f0357b8b86624a1163712a950
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Jun 13 10:18:26 2016 +0800
+
+    Update README.md
+
+commit b8a07bb6fcaeb9779507f23c34875504bc7c9a39
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Jun 13 10:32:58 2016 +0800
+
+    eql README
+
+commit dc3f24e24ff7e33c32360322c722753308f742a7
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Jun 9 17:59:07 2016 +0800
+
+    x
+
+commit ad42217085a9df8e8ef8f1222270a63d33c2e698
+Merge: 5f6992a dc3f24e
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Jun 9 17:42:30 2016 +0800
+
+    Merge pull request #117 from qiniu/develop
+    
+    x
+
+commit 3303ab2662c6f581b1c14d62e8aed30fc829b40d
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Jun 9 17:31:19 2016 +0800
+
+    qlang tutorial: terminal
+
+commit 5f6992af42090766deea7c9a956576e2a5e3d5f5
+Merge: 19d9823 3303ab2
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Jun 9 17:19:27 2016 +0800
+
+    Merge pull request #116 from qiniu/develop
+    
+    Release v2.9.20
+
+commit 8e96b5658316a78b9f7b4120eefc6a2c070af13d
+Merge: dda39bf 10ca69e
+Author: visualfc <visualfc@gmail.com>
+Date:   Wed Jun 8 11:36:03 2016 +0800
+
+    Merge remote-tracking branch 'upstream/develop' into develop
+
+commit dda39bf41c5533b78625525f1264b492b3f0503d
+Merge: 7796250 e522f01
+Author: visualfc <visualfc@gmail.com>
+Date:   Wed Jun 8 11:35:57 2016 +0800
+
+    Merge branch 'develop' of https://github.com/visualfc/qlang into develop
+
+commit 10ca69ec637756efbde67e4c63b76eb1f142c0b5
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed Jun 8 10:13:40 2016 +0800
+
+    eql: small fix
+
+commit 5ad46613f483f77e203d96d93dae3e75551f26c2
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed Jun 8 05:09:20 2016 +0800
+
+    x
+
+commit 8f80962a84eb98f5c7e6636d7ec73f81df3648b4
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed Jun 8 04:22:30 2016 +0800
+
+    x
+
+commit 7ec255512339c1f9c1a1541a77dfee28ccabdf22
+Merge: 6ea5c9a e522f01
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed Jun 8 04:11:10 2016 +0800
+
+    Merge branch 'develop' of github.com:qiniu/qlang into develop
+
+commit 6ea5c9a7312599b7bf09dd31bc8de55daf6f2684
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed Jun 8 04:10:57 2016 +0800
+
+    eql: support template package
+
+commit e522f01d27b4c7c4b55c432bfe40cbe4955a0dc7
+Merge: 2d9ffaf bb7930f
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Jun 7 19:19:13 2016 +0800
+
+    Merge pull request #113 from visualfc/develop
+    
+    qexport use qlang.StructOf
+
+commit 2d9ffaf75c12c54f70b0f551c910546204fdeb53
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Jun 7 18:55:56 2016 +0800
+
+    eql bugfix
+
+commit bb7930fd0c2a4e3bc43e03563e9e122b3a982cff
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue Jun 7 18:34:24 2016 +0800
+
+    qexport update readme
+
+commit e071d007c0114cd9eb4ec84f85997c3b99891125
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Jun 7 18:30:52 2016 +0800
+
+    eql README
+
+commit 62a5b42becfc6e9ad5857ac9e23e8f7658efaca2
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue Jun 7 18:28:05 2016 +0800
+
+    qexport use qlang.StructOf
+
+commit 35799609166e29b0a0c32cd4c0753b928afe7aa6
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Jun 7 17:25:14 2016 +0800
+
+    1. eql; 2. qlang.StructOf
+
+commit dea93c472af219a6a86b65d6395cb3c7782e00fe
+Merge: d7289d5 e381a16
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Jun 7 16:53:10 2016 +0800
+
+    Merge pull request #112 from visualfc/develop
+    
+    qexport support goapi version check, add +build verion export
+
+commit e381a16e0cd6a1c9f24b7c71e6d56ecf530c11d5
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue Jun 7 00:32:08 2016 +0800
+
+    qexport support goapi version check, add +build verion export
+
+commit 7796250831880f6142483ea91e973af398fc6f05
+Merge: a9f04bc d7289d5
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 30 14:41:18 2016 +0800
+
+    Merge remote-tracking branch 'upstream/develop' into develop
+
+commit a9f04bcee7b8d7e4a07fc9afb161461ded341576
+Merge: 33baec7 e1e53e7
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 30 14:40:37 2016 +0800
+
+    Merge branch 'develop' of https://github.com/visualfc/qlang into develop
+
+commit 19d9823962bc38611ef4047e85da9bfaec791eb3
+Merge: fa27cc4 d7289d5
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 30 13:29:24 2016 +0800
+
+    Merge pull request #110 from qiniu/develop
+    
+    Release v2.9.10
+
+commit d7289d535c832ac93e753cb7f2a3c48153c540d0
+Merge: abdd21a e1e53e7
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 30 13:26:23 2016 +0800
+
+    Merge pull request #111 from visualfc/develop
+    
+    qexport update to qlang style export
+
+commit e1e53e78663b794fe9e989668833d6952c8ebf0f
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 30 13:01:55 2016 +0800
+
+    qexport update to qlang style export
+     const and var title
+     struct title
+     struct/interface NewType to type func, if NewType only once
+     func lower case
+    qmeta dir and doc support []slice
+
+commit abdd21aed56b80e08f16a05ba4c02a13dac13de0
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 30 12:35:02 2016 +0800
+
+    #78 qlang shell: string/char literal support escape(\)
+
+commit 157e4e25f915b43b88c490d811cfdd204504bd9d
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 30 12:01:32 2016 +0800
+
+    #78 qlang shell: support TAB
+
+commit 33baec78444e5fa27de447c4aa8dbfb17bd624da
+Merge: 919a172 e7355a3
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 30 11:17:09 2016 +0800
+
+    Merge remote-tracking branch 'upstream/develop' into develop
+
+commit 919a1727b8959ef227c81b64fe90af8a242825f1
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 30 11:15:32 2016 +0800
+
+    meta, dir and pkg support slice
+
+commit e7355a307bff08a8a969bbdf8d0e0d89965c9e41
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 30 11:08:48 2016 +0800
+
+    #78 qlang shell: multi line code
+
+commit 2d10faa83411f374967245c46e86984d7d2419d3
+Merge: 5697f29 043f90f
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 30 10:50:30 2016 +0800
+
+    Merge remote-tracking branch 'upstream/develop' into develop
+
+commit 5697f29618c1dc421d5a611fdff7ab7df49cad85
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 30 10:42:05 2016 +0800
+
+    qexport, update to new qlang style export.
+    var and const title
+    struct type title
+    struct/interface NewType func to lower type tunc, if only one NewType func
+    func to lower case, if only first letter capital
+
+commit 043f90fd7a79525688ce7e9933a05b11235df86e
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 30 10:04:17 2016 +0800
+
+    x
+
+commit 04c470507170fea72baaa90b5925a9a13ebd1c3c
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 30 09:59:41 2016 +0800
+
+    #108 NewTypeEx
+
+commit a9308fa3fa4a523ee066bf1fd7896ceb3dfc0231
+Merge: 34b57cc 503c544
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 30 08:09:55 2016 +0800
+
+    Merge remote-tracking branch 'upstream/develop' into develop
+
+commit 34b57cc83d509e9707324daf91c8eeb7be5b9d2b
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 30 07:22:03 2016 +0800
+
+    qexport, default to qlangstyle
+
+commit 503c544f463e0b9252b2a960ec276911a600f957
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 30 05:30:13 2016 +0800
+
+    rollback #105
+
+commit fa27cc46b4032ac5c06643c571bf28e141d1913e
+Merge: c5b31af 503c544
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 30 05:16:23 2016 +0800
+
+    Merge pull request #107 from qiniu/develop
+    
+    Release v2.9.01
+
+commit a221fd9d332b43503f4fb3a6b0fbfb8684a98d5f
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 29 15:01:11 2016 +0800
+
+    qlang.TypeEx
+
+commit c4ee664e9be8ae57fdd82617c1a47855ed27ac08
+Author: visualfc <visualfc@gmail.com>
+Date:   Sun May 29 13:12:03 2016 +0800
+
+    eqxport, export struct, add flag skiperrimpl=true lower=false
+
+commit 6ded5f54166ec671d666d4afa7eef5c4a4d09e58
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 29 02:12:37 2016 +0800
+
+    #103 automatically wrap to export a go function that has callbacks
+
+commit c5b31afc20c147b2eb79e972814adf6c3a0a89b3
+Merge: 8a725b6 6ded5f5
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 29 02:00:06 2016 +0800
+
+    Merge pull request #104 from qiniu/develop
+    
+    #103 automatically wrap to export a go function that has callbacks
+
+commit f33d0c23d5ad4aa697b62d2f5ed08ee823ca2be5
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 19:58:03 2016 +0800
+
+    #96 builtin make function: support chan
+
+commit 8a725b6d1b7e30b7879b57cf19cc704a99fe7bc7
+Merge: 410a75b f33d0c2
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 19:42:23 2016 +0800
+
+    Merge pull request #102 from qiniu/develop
+    
+    #96 builtin make function: support chan
+
+commit 28ba226ebd97b20e7eed5d06f28bb0dd9b2bb064
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 19:30:18 2016 +0800
+
+    #96 README - builtin function: make
+
+commit 410a75bb2c3901adfd46f9557d9f5ce4d65b5dd7
+Merge: a396961 28ba226
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 19:14:33 2016 +0800
+
+    Merge pull request #101 from qiniu/develop
+    
+    Release v2.9.00
+
+commit af9584ac35a2bcbe360ed259aa1b216fe8485118
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 19:11:23 2016 +0800
+
+    #96 builtin function: make
+
+commit 57b81b45e5f80f469f1673f61916181e2ab477c7
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 11:52:26 2016 +0800
+
+    x
+
+commit 9eee39b5d72cdf71cf45d3018277d3a35307d130
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 11:48:21 2016 +0800
+
+    #84 #95 README
+
+commit a396961ada0d55ab8eb795284ac0feb496c20fbe
+Merge: b3594c4 57b81b4
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 11:35:43 2016 +0800
+
+    Merge pull request #100 from qiniu/develop
+    
+    x
+
+commit b3594c49ee731902aaa12f950622db47687836d3
+Merge: b6c29d2 9eee39b
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 11:32:27 2016 +0800
+
+    Merge pull request #99 from qiniu/develop
+    
+    Release v2.8.20
+
+commit 73339fc37a10d4463b4c7844a4361e9d8bd1a7f1
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 11:07:54 2016 +0800
+
+    #98 new ident => new type
+
+commit 6ef96d3395bc3720fb3faa7e8c4c60b838d12a7d
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 10:13:01 2016 +0800
+
+    #95 map type & init
+
+commit b6c29d20fda0f0f572a9bb254bff8286ece07c19
+Merge: ef78d47 6ef96d3
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 28 10:00:46 2016 +0800
+
+    Merge pull request #97 from qiniu/develop
+    
+    Release v2.8.10
+
+commit 0ada325b2f32d57d1ca0a9624a995ff371676169
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 21:17:47 2016 +0800
+
+    x
+
+commit c686e75dfb8835bd21cedba57f31a408eb66c7c0
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 21:08:10 2016 +0800
+
+    #95 struct initialization
+
+commit 564b321e0b3b2a570e70fb0f8e460339bd510aaf
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 18:41:55 2016 +0800
+
+    #84: []T{a1, a2, ...}; support exporting Go struct type
+
+commit ef78d47d360c12b00cca477276eef8c883be61ef
+Merge: dfec998 564b321
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 18:31:45 2016 +0800
+
+    Merge pull request #94 from qiniu/develop
+    
+    Release v2.8.00
+
+commit 1bb10519a5a31e7eb9e0c3d10ace6962995ffc57
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 13:36:01 2016 +0800
+
+    x
+
+commit 68df82d516981b154ecd0a011b0b7a470c0f3fd0
+Merge: 28f0191 c25cc0c
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 13:01:57 2016 +0800
+
+    Merge pull request #93 from visualfc/develop
+    
+    meta doc修复导出_，增加"md5" "println"识别
+
+commit 28f01912f4c2d142c398d9630e02499ec0b45a01
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 13:16:02 2016 +0800
+
+    x
+
+commit 28079155c56e30acfb4b77bf19aadeb39fe64a1c
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 13:10:48 2016 +0800
+
+    #84 introduce DontTyNormalize
+
+commit c25cc0c31c340c5c6b367bc1030c23db3e42e4f1
+Author: visualfc <visualfc@gmail.com>
+Date:   Fri May 27 11:43:05 2016 +0800
+
+    meta add doc(md5) doc(println) action
+
+commit 53b81ad094c9c571220014e420fdc49f66178f4f
+Author: visualfc <visualfc@gmail.com>
+Date:   Fri May 27 10:20:11 2016 +0800
+
+    meta doc func hide _xxx key
+
+commit fe7d566c6717fc1acf3edd73b65e0342e8bc39d2
+Merge: 5ba7b77 5462968
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 10:15:55 2016 +0800
+
+    Merge branch 'develop' of github.com:qiniu/qlang into develop
+
+commit 5ba7b7718847917acbb75e6e029f1d85a23cbb0a
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 10:15:47 2016 +0800
+
+    x
+
+commit 54629689cca79351b57521b44cb3a73a86f6abb7
+Merge: fc10ca2 5f25a6b
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 08:00:31 2016 +0800
+
+    Merge pull request #89 from visualfc/develop
+    
+    qlang shell: ^C abort input, ^D empty input for exit
+
+commit 5f25a6bde08111f01f13d16184e85db0fea0b505
+Author: visualfc <visualfc@gmail.com>
+Date:   Fri May 27 07:14:22 2016 +0800
+
+    qexport ^C abort input, ^D empty input for exit
+
+commit fc10ca258d35e825ad8002120912ccd44447b7fa
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 03:50:24 2016 +0800
+
+    #84 support []T
+
+commit 379449c7b7d63753c364620e80ab032a1eaae073
+Merge: 40c2a3a 43b3995
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 03:06:30 2016 +0800
+
+    Merge branch 'develop' of github.com:qiniu/qlang into develop
+
+commit 40c2a3adc3b77ffaec75a7d81101bdd8fe3eb7e1
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 27 03:04:29 2016 +0800
+
+    #84 support exporting go type
+
+commit 43b3995e4f32d7a339f263ed031ac8348ff2fdca
+Merge: 6f1f4b8 fbb24e6
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu May 26 18:20:30 2016 +0800
+
+    Merge pull request #87 from visualfc/develop
+    
+    qexport 自动转换struct变量到引用，meta增加doc函数
+
+commit fbb24e6f28b7daa5d4020e2baa84e0efc3c21d6b
+Merge: cf8b51e 6f1f4b8
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu May 26 16:18:36 2016 +0800
+
+    Merge remote-tracking branch 'upstream/develop' into develop
+
+commit cf8b51ed7b7679762d13291eb4a214f8a5124a41
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu May 26 16:17:01 2016 +0800
+
+    qexport convert struct var to ref export
+
+commit 6f1f4b8477ccff489af1c4ee9893c62060870ee9
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu May 26 15:42:01 2016 +0800
+
+    #83 调用Go函数时无法进行兼容性类型转换
+
+commit dfec99823c940a9f8aa675cbfc15ccb2a41f0713
+Merge: 1d8c8ee 6f1f4b8
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu May 26 15:27:05 2016 +0800
+
+    Merge pull request #86 from qiniu/develop
+    
+    Release v2.7.20
+
+commit c826a782084b77efe4340183b3338988ca695f86
+Merge: e62ce41 a6de6c0
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu May 26 15:17:15 2016 +0800
+
+    Merge remote-tracking branch 'upstream/develop' into develop
+
+commit e62ce4126fc2b24d4753906b43876c0c0af3e359
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu May 26 15:15:19 2016 +0800
+
+    meta package, add doc func, rename pkglist to pkgs
+
+commit 1d8c8eece014e9c1bfe3d20cf7ea58c3fd872542
+Merge: c1353a7 a6de6c0
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu May 26 13:58:40 2016 +0800
+
+    Merge pull request #75 from qiniu/develop
+    
+    Release v2.7.10
+
+commit a6de6c067e15a201dde38166ff629cbaecce8c8d
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu May 26 13:18:59 2016 +0800
+
+    #81 #85: function call - auto convert ptr to ref
+
+commit 8e6cdd25fc70447d150635bf7f28a523a35378cc
+Merge: 3758a1f c0930b7
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed May 25 09:31:57 2016 +0800
+
+    Merge pull request #80 from visualfc/develop
+    
+    reimplement qexport app by ast/doc
+
+commit c0930b765ca7407ac67f01a0c266ef74340f44ca
+Author: visualfc <visualfc@gmail.com>
+Date:   Wed May 25 09:11:45 2016 +0800
+
+    qexport simple check
+
+commit 67b4a0aa46394e653b7edbaba533486050d66568
+Author: visualfc <visualfc@gmail.com>
+Date:   Wed May 25 08:44:44 2016 +0800
+
+    qexport add error struct check, unexported field check
+
+commit fc79cc6d3ec4eac80904b2c4603942a690a0d29f
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue May 24 22:22:17 2016 +0800
+
+    qexport update readme
+
+commit d55b372839c5e486ad016fa0c9731c05651f0dfa
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue May 24 22:20:01 2016 +0800
+
+    qexport auto check type export is var ptr array
+
+commit c342ff4047051426c738220140672752bd68d54e
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue May 24 19:15:50 2016 +0800
+
+    update app/qlang terminal
+
+commit 7c667de5214fc2bbacec2ca77bbd64920cfeddc5
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue May 24 19:11:02 2016 +0800
+
+    add terminal package
+
+commit 13437ec245676fbaf03b1378a626d28f3c1f99a4
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue May 24 10:56:10 2016 +0800
+
+    qexport fix go1.4.2 skip cmd
+
+commit edd4abb7d6c6d0be341be32219984b278f0c5a27
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue May 24 10:52:35 2016 +0800
+
+    qexport export all const and vars, default struct export new and []array
+
+commit d8262179221e18a437290e55bbc25e4e2dc17196
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 23 21:54:28 2016 +0800
+
+    qexport fix std pkg uint64 const export
+
+commit 36e100695cf380b240de4a9b28788809119bfca6
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 23 21:16:26 2016 +0800
+
+    qexport fix build go1.4.2
+
+commit 79ddb0d2656dd3b08e05f98b25e02c0738907573
+Author: visualfc <visualfc@gmail.com>
+Date:   Mon May 23 21:11:36 2016 +0800
+
+    reimplement qexport app by ast/doc
+
+commit 3758a1f0330b076555b1c45c623eb8e13d0a2196
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 18:32:07 2016 +0800
+
+    #64 qlang shell doesn't support import
+
+commit f25a178edcf959b51436241d4a5bf6844cb920ed
+Merge: 077063c ce837e0
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 15:42:34 2016 +0800
+
+    Merge pull request #79 from simon-xia/patch-1
+    
+    Update README.md
+
+commit ce837e01e6e9eac93d6be131910deda3d22e6ce2
+Author: Simon Xia <simonxiaOMG@gmail.com>
+Date:   Sat May 21 15:27:01 2016 +0800
+
+    Update README.md
+    
+    my vim plugin for qlang
+
+commit 077063cb6e10fcd7a859767a7fc4e3814940c525
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 14:48:53 2016 +0800
+
+    #71 gomodule._name
+
+commit be4d7f45937c87303b19468bd54f58869b65ba32
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 09:29:19 2016 +0800
+
+    Update README.md
+
+commit fa3086f04ed9c466ae42d31baf737ef4064f29c6
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 09:26:21 2016 +0800
+
+    Update README.md
+
+commit 84bec4c24c087949bc6c24fe57ab7702aad12711
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 09:24:56 2016 +0800
+
+    Update README.md
+
+commit b634bab388e1bed12c54e0c794b343b3339a1558
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 09:23:28 2016 +0800
+
+    Update README.md
+
+commit 9bd4978e5a6670122e3809de922be782a179496a
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 09:22:15 2016 +0800
+
+    Update README.md
+
+commit 35a06df016faad65026d617022a9cea27bbe9f45
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 09:37:46 2016 +0800
+
+    README
+
+commit c9ec3eb2ca05cbd583b4b5700e446045035865be
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 00:17:03 2016 +0800
+
+    Update README.md
+
+commit b7351554a75009a94c52eed70895994785cb237a
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 00:13:03 2016 +0800
+
+    Update README.md
+
+commit abfdd6803179ce68dbc490d9c8bdb2fc2621ed8f
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 00:07:12 2016 +0800
+
+    Update README.md
+
+commit 4a72aa1c143c268cce83faa0989dd366f1bed949
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 00:03:42 2016 +0800
+
+    Update README.md
+
+commit 868ad3c8679619d6b7735c1eb4af254691ab5437
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 20 23:55:31 2016 +0800
+
+    Update README_QL.md
+
+commit 24a09f401086c87e8838197e83d4eb094d73641e
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 20 23:52:32 2016 +0800
+
+    Update README.md
+
+commit bfc6665c002306b4ae73e27d97b2c7bdd4e8e747
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat May 21 00:08:42 2016 +0800
+
+    README
+
+commit c1353a74e8b7948d8a14e5bda809771283efc535
+Merge: 85fc153 dddb3d7
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 20 16:45:49 2016 +0800
+
+    Merge pull request #74 from qiniu/develop
+    
+    Release v2.7.00
+
+commit dddb3d734bdfb3480a38dc31d3fbbbcc7b81d97f
+Merge: 6bc88b0 a44234b
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 20 15:25:14 2016 +0800
+
+    Merge pull request #73 from xushiwei/patch-1
+    
+    add readline support for qlang
+
+commit a44234b4d25a8b2a8daed35c52fa889b989432c4
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 20 15:20:29 2016 +0800
+
+    Update .travis.yml
+
+commit 37d3ba6179cc43fd98d9da4c012c45168a4592e3
+Author: damon.chen <netubu@gmail.com>
+Date:   Fri May 20 09:14:10 2016 +0800
+
+    add readline support for qlang
+
+commit 6bc88b0bdea9479b8ce4e6a7db447b2c327610ae
+Merge: ee6abd3 2cd5e73
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 20 07:33:40 2016 +0800
+
+    Merge pull request #69 from visualfc/develop
+    
+    update context flag and doc
+
+commit 2cd5e737f2a9eabea4ceb2c4362a1f838beb49ed
+Author: visualfc <visualfc@gmail.com>
+Date:   Fri May 20 07:19:11 2016 +0800
+
+    update context flag and doc
+
+commit ee6abd37df3bd7f4ea2f763ad89206b9395f46dc
+Merge: cb042c2 0f8ec14
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu May 19 21:56:48 2016 +0800
+
+    Merge pull request #68 from visualfc/develop
+    
+    add qexport for export go package to qlang module
+
+commit 0f8ec1436510fad69bd68b0ab508e99a1e9afef6
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu May 19 21:04:46 2016 +0800
+
+    update travis
+
+commit 342e429cb0ddc6c79721c37fe1f2fdca4b958586
+Author: visualfc <visualfc@gmail.com>
+Date:   Thu May 19 20:36:19 2016 +0800
+
+    add qexport for export go package to qlang module
+
+commit cb042c2d7abf0f3ea515c95a23c164d3f5dd465e
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed May 18 10:57:05 2016 +0800
+
+    #65 exec.Object doesn't support operator[]
+
+commit 85fc15392bc40767399a65264ccf97187ad10055
+Merge: 87276a7 cb042c2
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed May 18 10:41:53 2016 +0800
+
+    Merge pull request #66 from qiniu/develop
+    
+    Release v2.6.00
+
+commit bc0b665571a00114a2060135af88f5bcc3279afb
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed May 18 10:26:56 2016 +0800
+
+    x
+
+commit ea4ae62fdc6680b0871b9f0ff1521575dcf6601a
+Merge: f57ed59 fb3b980
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed May 18 10:11:42 2016 +0800
+
+    x
+
+commit f57ed5931fc7016a2c982a90586f58a44c8f43b5
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Wed May 18 10:10:11 2016 +0800
+
+    bugfix: array[i]=nil; package: net/http,strings,etc
+
+commit fb3b980a07eb7c5de0d16421affed69ced174595
+Merge: e472e9c 1d2f86f
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue May 17 17:42:18 2016 +0800
+
+    Merge pull request #63 from visualfc/develop
+    
+    add qlang meta module
+
+commit 1d2f86f7bd1f32ba37c02a21386ef81a10b18a57
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue May 17 17:15:33 2016 +0800
+
+    meta check type method exported
+
+commit b29cde181cdbff1c8d929c0c5a1db4773b827386
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue May 17 16:21:31 2016 +0800
+
+    meta fntable and fnlist hide internal $name
+
+commit 43716cf944a823c08ddc6197df887f689c145dab
+Author: visualfc <visualfc@gmail.com>
+Date:   Tue May 17 15:51:55 2016 +0800
+
+    add qlang meta module
+
+commit e472e9caf0d720716586c46d2c3ad26551e611c3
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 15 23:51:51 2016 +0800
+
+    Update sandbox_test.go
+
+commit e2da81edc33d25581fd8ddc20525ed797e5c650f
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 15 23:46:48 2016 +0800
+
+    Update .travis.yml
+
+commit 7a2ac46be2c19c83fc9db6a1cbf043107de58dd1
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 15 23:34:17 2016 +0800
+
+    Update README.md
+
+commit 5f8a5cf6bbe01d476768adc6e660b55afdb48353
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 15 23:48:09 2016 +0800
+
+    x
+
+commit e3a249ce23bd24594f2befbd935b93ce221ce7a7
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun May 15 23:44:23 2016 +0800
+
+    travis
+
+commit 777e133f7ee428fd4787212f3ffccddc36f2b4c8
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 13 22:25:32 2016 +0800
+
+    #60 remove private variable concept
+
+commit 87276a7cfb66b6dea35ee3f95ac745394bd845c8
+Merge: 20748cd 777e133
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri May 13 22:11:20 2016 +0800
+
+    Merge pull request #61 from qiniu/develop
+    
+    Release v2.5.00
+
+commit 277220efc9c55f6ad2466951936a22e00abb75f2
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue May 10 19:47:13 2016 +0800
+
+    #57 optimize const expr; #58 inject methods into a class
+
+commit 20748cd41f9bf9bdb3c6548b7665f2bb1d11a40a
+Merge: ade3c84 277220e
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue May 10 19:32:52 2016 +0800
+
+    Merge pull request #59 from qiniu/develop
+    
+    Release v2.4.00
+
+commit 29e8c81b12e165d71c3b2ba15a6010e3eb24575d
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 2 02:40:12 2016 +0800
+
+    #55 bits operators
+
+commit dcb1ec3263c6848805dc83e8c53927e1a9e7e996
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 2 02:34:19 2016 +0800
+
+    #54 type(['a', 'b']) gets []int
+
+commit ade3c842bf879aa9501d98aff232622a8876ee01
+Merge: e2ccfaf 29e8c81
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon May 2 02:27:16 2016 +0800
+
+    Merge pull request #56 from qiniu/develop
+    
+    Release v2.3.00
+
+commit 6a2af8803e37a57ebbc436deb1d7570a9274ef30
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Apr 30 13:15:48 2016 +0800
+
+    #52 a++, a+=2; type now is keyword
+
+commit e2ccfaf578b6cc12f16ea06c9fbe02b50c5cd5d6
+Merge: aeaea54 6a2af88
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Apr 30 13:03:43 2016 +0800
+
+    Merge pull request #53 from qiniu/develop
+    
+    Release v2.2.01
+
+commit 88b9763ca01abad005b4929c23c5f1c2dd68f2ea
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri Apr 29 23:40:50 2016 +0800
+
+    #52 type(uint32(1)) gets int
+
+commit ff4d9b4e8b9af05eb3c54a7f9d7ffa90082759d3
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri Apr 29 09:25:20 2016 +0800
+
+    #49 support uint32/uint64/etc
+
+commit 49474a9a904de7d9149f0e9501ebe23361f91290
+Merge: dfd8893 147d8a4
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri Apr 29 09:18:05 2016 +0800
+
+    Merge branch 'develop' of github.com:qiniu/qlang into develop
+
+commit dfd88931779b934522bfac0bec7a5e48a499d263
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri Apr 29 09:17:46 2016 +0800
+
+    #50 using qlang class from Go
+
+commit aeaea54c86f6bb7b0d372b00216f467be308a120
+Merge: f96ae6e ff4d9b4
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri Apr 29 09:11:24 2016 +0800
+
+    Merge pull request #51 from qiniu/develop
+    
+    Release v2.2.00
+
+commit f96ae6ec683f586ae1f5a1dfa8e2cb1e5d3e0731
+Merge: e6d9ecc 147d8a4
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 13:43:33 2016 +0800
+
+    Merge pull request #48 from qiniu/develop
+    
+    Fix import package file path
+
+commit 147d8a4f09a7a252373ffd4df338bac1fa00403c
+Merge: efee797 72044a1
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 13:42:56 2016 +0800
+
+    Merge pull request #47 from Focinfi/develop
+    
+    Fix import package file path
+
+commit 72044a14e74197b9d0b0e1e7526b0bf9c09dbb5b
+Author: Focinfi <focinfi@gmail.com>
+Date:   Tue Apr 19 13:37:55 2016 +0800
+
+    Fix import package file path
+    
+    fix bug: using plain(relative) file path, code at [qlang.v2/module2.go:44](https://github.com/qiniu/qlang/blob/develop/qlang.v2/module2.go#L44)
+
+commit 5e6b051deff1ab7004f73b8e19558b4eae961e93
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 12:38:09 2016 +0800
+
+    #38 linux shell
+
+commit efee7976c5a29ce2d197a3535c1f991026caee17
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 12:26:29 2016 +0800
+
+    Update README.md
+
+commit e6d9ecca2491ad148830d6ae2c16109d12503e9b
+Merge: 7443e3c 5e6b051
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 12:23:31 2016 +0800
+
+    Merge pull request #46 from qiniu/develop
+    
+    #38 linux shell
+
+commit f77baa6ae15d85187c260b5cae53dec6fabaf36b
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 02:24:19 2016 +0800
+
+    x
+
+commit 7443e3c7bae1335af9fadccccc9f3cf3c56acbf1
+Merge: 8e2cdf0 f77baa6
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 02:10:36 2016 +0800
+
+    Merge pull request #44 from qiniu/develop
+    
+    x
+
+commit 0a3d5df957164698afba1ec387ab2cd83a730622
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 02:03:39 2016 +0800
+
+    x
+
+commit 8e2cdf0c1034ad48c85f9536570639a60d948412
+Merge: 25fbfba 0a3d5df
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 01:50:28 2016 +0800
+
+    Merge pull request #43 from qiniu/develop
+    
+    qlang.v2 增强
+
+commit 3f60144e6cb5041d97d8e89961c64921e5dfa677
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 01:40:19 2016 +0800
+
+    #42 new module.Class
+
+commit 9e35a94ecf08bc380704a4ba07215b2bd543296c
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 00:59:58 2016 +0800
+
+    #39 member assign
+
+commit 34c2c6fd891e60ada2b667af2060246aea28e66a
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 19 00:23:40 2016 +0800
+
+    #39 member assign
+
+commit 2b1e2cfeb01cea53e92ddc487e2ab7c5ddd9fddb
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 17 23:14:32 2016 +0800
+
+    Update README.md
+
+commit 71a8ad0fa2172d19582e68b96c4786b6987d833e
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 17 22:10:19 2016 +0800
+
+    Create LICENSE
+
+commit 29b16395e5bbb36e0514a2c8b5767c610f8267af
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 11 01:52:01 2016 +0800
+
+    x
+
+commit 25fbfba37b96c3510c48095305ef5f554d8c1303
+Merge: d3ee7b9 29b1639
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 11 01:37:26 2016 +0800
+
+    Merge pull request #36 from qiniu/develop
+    
+    x
+
+commit 2b3b313930a5b5a8050132977dd13d46c1c55ca0
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 11 01:35:32 2016 +0800
+
+    #6 for range
+
+commit d3ee7b98d139b52506e78f269e6f984bdd00a134
+Merge: 4caa33e 2b3b313
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 11 01:21:20 2016 +0800
+
+    Merge pull request #35 from qiniu/develop
+    
+    #6 for range
+
+commit 37737bebba91af1ddb68007301d68b6e91fb6680
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 10 22:30:20 2016 +0800
+
+    #33 interpreter for qlang.v2
+
+commit 4caa33e8031762add549785bee72f1126d8b2cd9
+Merge: 685acb3 37737be
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 10 22:16:11 2016 +0800
+
+    Merge pull request #34 from qiniu/develop
+    
+    #33 interpreter for qlang.v2
+
+commit d0ce9969920d9e95aaeb9d92227c676b1df7d939
+Merge: 2e478ba 85bef06
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 10 19:23:47 2016 +0800
+
+    x
+
+commit 685acb3c776cd56f888a04bb59d440a19a8266a3
+Merge: 85bef06 d0ce996
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 10 19:19:36 2016 +0800
+
+    Merge pull request #32 from qiniu/develop
+    
+    multi assignment
+
+commit 2e478ba4522034f238f92c4fa7b322019a0a9819
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 10 19:08:30 2016 +0800
+
+    #31 multi assignment
+
+commit 85bef061581eacdf9bd3c1d9763e1117347e7023
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 10 13:18:08 2016 +0800
+
+    x (#30)
+    
+    * #21 thread-safe module init
+    * #19 redefine meanings of compound statements
+    * #26 #19 break/continue, statement without value
+    * dumpCode mode
+
+commit d636fc5113429255ceff0b72c5d4ab0d2d58a5ea
+Merge: 74793be 0861cc3
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 10 13:17:12 2016 +0800
+
+    x
+
+commit 74793bea9c1391cc4ea4108c0231aa148ad14499
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 10 13:12:58 2016 +0800
+
+    dumpCode mode
+
+commit 13be9c6230f38493e09ec0b5d0ffb817553c1a43
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Apr 9 09:01:18 2016 +0800
+
+    Update README.md
+
+commit 416b03ffbed5e2ad196da7e4de4b99da60bc3256
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Apr 9 08:58:44 2016 +0800
+
+    #26 #19 break/continue, statement without value
+
+commit 3e76e8addd432907440128b3fe86c8a794f8e711
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri Apr 8 16:17:19 2016 +0800
+
+    #19 redefine meanings of compound statements
+
+commit 0861cc387520d983b13ff33052f22c49504a0485
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 5 23:14:21 2016 +0800
+
+    qlang.v2
+    
+    * #21 thread-safe module init
+    * qlang.v2
+
+commit 6c7344bc7b251025abecfc8e38be55ce97f65ce1
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 5 23:12:47 2016 +0800
+
+    x
+
+commit d83261921e5f9e840e7fd230ee1571b7db4aa390
+Merge: 1e87381 6c17413
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 5 23:10:18 2016 +0800
+
+    x
+
+commit 1e873819fda009c078bc0d59c6d1be17a8ce08a3
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 5 18:28:50 2016 +0800
+
+    qlang.v2
+
+commit 6c174133ba7f01c43a65f2d49c24252b0c07febf
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 5 09:41:51 2016 +0800
+
+    #21 thread-safe module init
+    
+    * #21 thread-safe module init
+
+commit c89fb677f4b089457655aceb2c68aac3eecca6bf
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Tue Apr 5 09:40:31 2016 +0800
+
+    #21 thread-safe module init
+
+commit 0c4a02311328342f33644c2d7da3946ea9a4753b
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 4 23:28:43 2016 +0800
+
+    README
+
+commit beac302ffb3a0f25f00440d9dc08c318f8ea99ee
+Merge: 3f0e831 b603904
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 4 12:13:50 2016 +0800
+
+    Merge pull request #24 from qiniu/develop
+    
+    #22 chan
+
+commit b6039045c2dfb34eb4e016f895ceeb4834cb9ed6
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 4 12:12:11 2016 +0800
+
+    #22 chan
+
+commit 3f0e83190e582416b32df53de0e3b5f1d3835039
+Merge: 6dd9a2c 852702c
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 4 08:32:58 2016 +0800
+
+    Merge pull request #23 from qiniu/develop
+    
+    #17 goroutine: bugfix
+
+commit 852702c6658bad250785a84864fdeb6c329173d7
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 4 08:31:04 2016 +0800
+
+    #17 goroutine: bugfix
+
+commit 6dd9a2c0b873fa0f6d6ea6c764225f50491b7c0e
+Merge: 8f230dd 3ac937d
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 4 07:57:14 2016 +0800
+
+    Merge pull request #20 from qiniu/develop
+    
+    #17 goroutine
+
+commit 3ac937d32868287c5abe970caf656842e462ee35
+Merge: bfdb7e8 fb4cad1
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 4 07:53:35 2016 +0800
+
+    x
+
+commit bfdb7e8a0c2f875d17500db65033f97d0809a411
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Mon Apr 4 07:52:03 2016 +0800
+
+    #17 goroutine
+
+commit fb4cad1fe7c13fc5d466833677c36b7efb9ce35c
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 3 17:37:50 2016 +0800
+
+    Update file.ql
+
+commit 8f230ddac47373bac5b4c0c69302116f401f0640
+Merge: c066f4b f0185e3
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 3 17:32:17 2016 +0800
+
+    Merge pull request #16 from qiniu/develop
+    
+    #15 anonymfn
+
+commit f0185e33339344aa875381d64694061c46966d3b
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 3 17:30:02 2016 +0800
+
+    #15 anonymfn
+
+commit c066f4ba503fd5cade87f787584d89e02d8aa32e
+Merge: 9953002 65613a7
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 3 11:34:56 2016 +0800
+
+    Merge pull request #14 from qiniu/develop
+    
+    #10 support module: include/import/export
+
+commit 65613a748429bc2a6f38565473485ec68415d672
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sun Apr 3 11:31:50 2016 +0800
+
+    #10 support module: include/import/export
+
+commit 9953002e851322975d7b10c8acbcd46aab8efe74
+Merge: 6af5b03 4f88d0b
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri Apr 1 16:59:22 2016 +0800
+
+    Merge pull request #12 from qiniu/develop
+    
+    x
+
+commit 4f88d0b3363d48e8b30cb1240f5076ecbf112044
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri Apr 1 16:58:14 2016 +0800
+
+    Update README.md
+
+commit 6a178042b95fbdc95f35fdf435a48c0525bfa06d
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Fri Apr 1 16:57:30 2016 +0800
+
+    Update README.md
+
+commit 6af5b03d8658edc61da57e97511c52be2e7841c6
+Merge: 94577d9 71e2ed5
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 31 19:45:03 2016 +0800
+
+    Merge pull request #9 from qiniu/develop
+    
+    include bugfix: unquote literal
+
+commit 71e2ed5e2dfe462e4bc84abe2c7d1dd21b3676c9
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 31 19:44:21 2016 +0800
+
+    include bugfix: unquote literal
+
+commit 2100cb0fcb345b56ee1eab0159735eb5fae97d3a
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 31 12:50:23 2016 +0800
+
+    support include
+
+commit 94577d9ca05da57d601bdb3db0ab840927ebb7ee
+Merge: 7072c6d 2100cb0
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 31 12:37:11 2016 +0800
+
+    Merge pull request #8 from qiniu/develop
+    
+    support include
+
+commit a6a0933f131550796bbb39a2d35970cd10e99ad1
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 22:01:33 2016 +0800
+
+    Update README.md
+
+commit 7072c6d6019a54ca265febb1d87dd00406503091
+Merge: 6a847db 29b7b60
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 21:39:13 2016 +0800
+
+    Merge pull request #5 from qiniu/develop
+    
+    Update README.md
+
+commit 29b7b603bbcd04ce420645befef46ec58af0c17f
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 21:38:35 2016 +0800
+
+    Update README.md
+
+commit 6a847db5babee98d252aad0e4352f6cc0972db67
+Merge: e5e474e becdc6d
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 21:36:36 2016 +0800
+
+    Merge pull request #4 from qiniu/develop
+    
+    README
+
+commit becdc6d4a956661d403bb2d75bcc9597db668d3d
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 21:35:51 2016 +0800
+
+    Update README.md
+
+commit c14695798a9642d0a6db9454ddf522e7f3eccbcc
+Merge: 6201182 e5e474e
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 21:30:43 2016 +0800
+
+    Merge pull request #3 from qiniu/master
+    
+    Master
+
+commit e5e474eb02d20a1f64e6712100951b5b8a757109
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 21:24:54 2016 +0800
+
+    Update doc.go
+
+commit 9f3708cd8367e3a080e8d6bbfd17b03700cf15cf
+Merge: 513a072 6201182
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 21:19:42 2016 +0800
+
+    Merge pull request #2 from qiniu/develop
+    
+    x
+
+commit 6201182414be1a18da00b0561cc0a689fa41d6f8
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 21:19:25 2016 +0800
+
+    Update README.md
+
+commit bbeda96bff6e2f63619c9485b0dc39294d6dffe0
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 21:16:56 2016 +0800
+
+    x
+
+commit 513a072ceb06b5dc30cc7f316d74ecc9ffe5bb7c
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 21:02:08 2016 +0800
+
+    README
+
+commit af9a52bec416697e76886d416b03b33b6fb0e69f
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Thu Mar 24 17:22:10 2016 +0800
+
+    qlang v1/v2
+
+commit 68db380ec8147a2beb40827427fe93cb140d2676
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Dec 12 11:39:22 2015 +0800
+
+    Update README.md
+
+commit e0c88955f8a56063187e2cba47750265d8c907c8
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Dec 12 11:36:42 2015 +0800
+
+    download
+
+commit 710dd32e6d3fbad5e3a07fae7a77b12f26f4b6d9
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Dec 12 09:58:32 2015 +0800
+
+    examples
+
+commit 5170cc46b9b0b92b9287de92359d6381906d7987
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Dec 12 09:44:15 2015 +0800
+
+    qnlang of qnlang
+
+commit 5ada5f00a4586c694063eaaf37b02d43a20f8f4f
+Author: xushiwei <xushiweizh@gmail.com>
+Date:   Sat Dec 12 09:21:39 2015 +0800
+
+    Initial commit
